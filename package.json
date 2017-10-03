@@ -1,0 +1,23 @@
+{
+  "name": "robotsite",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www --debug"
+  },
+  "dependencies": {
+    "adafruit-pca9685": "^0.1.4",
+    "body-parser": "~1.17.1",
+    "bufferutil": "^3.0.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "i2c-bus": "^1.2.2",
+    "morgan": "~1.8.1",
+    "pug": "~2.0.0-beta11",
+    "serve-favicon": "~2.4.2",
+    "socket.io": "^2.0.3",
+    "utf-8-validate": "^3.0.3",
+    "ws": "^3.1.0"
+  }
+}

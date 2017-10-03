@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  p Click the buttons or use the arrow keys to drive the robot.
+  div.layout-container 
+    div.button-container
+      div.keyrow
+        div#forward.button &#8593;
+      div.keyrow
+        div#left.button &#8592;
+        div#backwards.button &#8595;
+        div#right.button &#8594;
+    canvas#canvas
